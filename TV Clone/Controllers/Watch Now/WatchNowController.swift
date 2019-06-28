@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WatchNowController.swift
 //  TV Clone
 //
 //  Created by Zackary O'Connor on 6/27/19.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WatchNowController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
 
 

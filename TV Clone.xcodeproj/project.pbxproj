@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		F3CE74DB22C5951A00409AE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74DA22C5951A00409AE6 /* AppDelegate.swift */; };
-		F3CE74DD22C5951A00409AE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74DC22C5951A00409AE6 /* ViewController.swift */; };
-		F3CE74E022C5951A00409AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CE74DE22C5951A00409AE6 /* Main.storyboard */; };
+		F3CE74DD22C5951A00409AE6 /* WatchNowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74DC22C5951A00409AE6 /* WatchNowController.swift */; };
 		F3CE74E222C5951B00409AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CE74E122C5951B00409AE6 /* Assets.xcassets */; };
 		F3CE74E522C5951B00409AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CE74E322C5951B00409AE6 /* LaunchScreen.storyboard */; };
+		F3CE74ED22C5985D00409AE6 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74EC22C5985D00409AE6 /* CustomTabBarController.swift */; };
+		F3CE74F022C59C2900409AE6 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74EE22C59C2900409AE6 /* UIView+Layout.swift */; };
+		F3CE74F122C59C2900409AE6 /* SnappingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74EF22C59C2900409AE6 /* SnappingLayout.swift */; };
+		F3CE74F322C59C4B00409AE6 /* BaseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74F222C59C4B00409AE6 /* BaseListController.swift */; };
+		F3CE74F522C59C9C00409AE6 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74F422C59C9C00409AE6 /* VerticalStackView.swift */; };
+		F3CE74F722C59CE100409AE6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74F622C59CE100409AE6 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3CE74D722C5951A00409AE6 /* TV Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CE74DA22C5951A00409AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3CE74DC22C5951A00409AE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3CE74DF22C5951A00409AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3CE74DC22C5951A00409AE6 /* WatchNowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNowController.swift; sourceTree = "<group>"; };
 		F3CE74E122C5951B00409AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3CE74E422C5951B00409AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3CE74E622C5951B00409AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CE74EC22C5985D00409AE6 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		F3CE74EE22C59C2900409AE6 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		F3CE74EF22C59C2900409AE6 /* SnappingLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnappingLayout.swift; sourceTree = "<group>"; };
+		F3CE74F222C59C4B00409AE6 /* BaseListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseListController.swift; sourceTree = "<group>"; };
+		F3CE74F422C59C9C00409AE6 /* VerticalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		F3CE74F622C59CE100409AE6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +65,58 @@
 			isa = PBXGroup;
 			children = (
 				F3CE74DA22C5951A00409AE6 /* AppDelegate.swift */,
-				F3CE74DC22C5951A00409AE6 /* ViewController.swift */,
-				F3CE74DE22C5951A00409AE6 /* Main.storyboard */,
-				F3CE74E122C5951B00409AE6 /* Assets.xcassets */,
-				F3CE74E322C5951B00409AE6 /* LaunchScreen.storyboard */,
+				F3CE74FB22C59DFD00409AE6 /* Controllers */,
+				F3CE74FA22C59D7A00409AE6 /* Base Controllers */,
+				F3CE74F922C59D5900409AE6 /* Helpers */,
+				F3CE74F822C59D2400409AE6 /* Supporting Files */,
 				F3CE74E622C5951B00409AE6 /* Info.plist */,
 			);
 			path = "TV Clone";
+			sourceTree = "<group>";
+		};
+		F3CE74F822C59D2400409AE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE74E122C5951B00409AE6 /* Assets.xcassets */,
+				F3CE74E322C5951B00409AE6 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3CE74F922C59D5900409AE6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE74EF22C59C2900409AE6 /* SnappingLayout.swift */,
+				F3CE74EE22C59C2900409AE6 /* UIView+Layout.swift */,
+				F3CE74F422C59C9C00409AE6 /* VerticalStackView.swift */,
+				F3CE74F622C59CE100409AE6 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F3CE74FA22C59D7A00409AE6 /* Base Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE74EC22C5985D00409AE6 /* CustomTabBarController.swift */,
+				F3CE74F222C59C4B00409AE6 /* BaseListController.swift */,
+			);
+			path = "Base Controllers";
+			sourceTree = "<group>";
+		};
+		F3CE74FB22C59DFD00409AE6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE74FC22C59E0700409AE6 /* Watch Now */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3CE74FC22C59E0700409AE6 /* Watch Now */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE74DC22C5951A00409AE6 /* WatchNowController.swift */,
+			);
+			path = "Watch Now";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +179,6 @@
 			files = (
 				F3CE74E522C5951B00409AE6 /* LaunchScreen.storyboard in Resources */,
 				F3CE74E222C5951B00409AE6 /* Assets.xcassets in Resources */,
-				F3CE74E022C5951A00409AE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +189,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3CE74DD22C5951A00409AE6 /* ViewController.swift in Sources */,
+				F3CE74F122C59C2900409AE6 /* SnappingLayout.swift in Sources */,
+				F3CE74F022C59C2900409AE6 /* UIView+Layout.swift in Sources */,
+				F3CE74DD22C5951A00409AE6 /* WatchNowController.swift in Sources */,
+				F3CE74F722C59CE100409AE6 /* Extensions.swift in Sources */,
 				F3CE74DB22C5951A00409AE6 /* AppDelegate.swift in Sources */,
+				F3CE74F322C59C4B00409AE6 /* BaseListController.swift in Sources */,
+				F3CE74ED22C5985D00409AE6 /* CustomTabBarController.swift in Sources */,
+				F3CE74F522C59C9C00409AE6 /* VerticalStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3CE74DE22C5951A00409AE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3CE74DF22C5951A00409AE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F3CE74E322C5951B00409AE6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
