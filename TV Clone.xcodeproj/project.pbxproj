@@ -11,12 +11,19 @@
 		F3CE74DD22C5951A00409AE6 /* WatchNowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74DC22C5951A00409AE6 /* WatchNowController.swift */; };
 		F3CE74E222C5951B00409AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CE74E122C5951B00409AE6 /* Assets.xcassets */; };
 		F3CE74E522C5951B00409AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CE74E322C5951B00409AE6 /* LaunchScreen.storyboard */; };
-		F3CE74ED22C5985D00409AE6 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74EC22C5985D00409AE6 /* CustomTabBarController.swift */; };
+		F3CE74ED22C5985D00409AE6 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74EC22C5985D00409AE6 /* BaseTabBarController.swift */; };
 		F3CE74F022C59C2900409AE6 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74EE22C59C2900409AE6 /* UIView+Layout.swift */; };
 		F3CE74F122C59C2900409AE6 /* SnappingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74EF22C59C2900409AE6 /* SnappingLayout.swift */; };
 		F3CE74F322C59C4B00409AE6 /* BaseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74F222C59C4B00409AE6 /* BaseListController.swift */; };
 		F3CE74F522C59C9C00409AE6 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74F422C59C9C00409AE6 /* VerticalStackView.swift */; };
 		F3CE74F722C59CE100409AE6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE74F622C59CE100409AE6 /* Extensions.swift */; };
+		F3CE750222C5BC2100409AE6 /* HorizontalSnappingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE750122C5BC2100409AE6 /* HorizontalSnappingController.swift */; };
+		F3CE750622C5BF2E00409AE6 /* WatchNowHorizontalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE750522C5BF2E00409AE6 /* WatchNowHorizontalController.swift */; };
+		F3CE750A22C5C04700409AE6 /* WatchNowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE750922C5C04700409AE6 /* WatchNowCell.swift */; };
+		F3CE750C22C5CDB100409AE6 /* WatchNowHorizontalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE750B22C5CDB100409AE6 /* WatchNowHorizontalCell.swift */; };
+		F3CE750E22C5D08300409AE6 /* CategoryHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE750D22C5D08300409AE6 /* CategoryHeaderController.swift */; };
+		F3CE751022C5D23A00409AE6 /* CategoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE750F22C5D23A00409AE6 /* CategoryHeader.swift */; };
+		F3CE751222C5D39500409AE6 /* CategoryHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE751122C5D39500409AE6 /* CategoryHeaderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +33,19 @@
 		F3CE74E122C5951B00409AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3CE74E422C5951B00409AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3CE74E622C5951B00409AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3CE74EC22C5985D00409AE6 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		F3CE74EC22C5985D00409AE6 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		F3CE74EE22C59C2900409AE6 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		F3CE74EF22C59C2900409AE6 /* SnappingLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnappingLayout.swift; sourceTree = "<group>"; };
 		F3CE74F222C59C4B00409AE6 /* BaseListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseListController.swift; sourceTree = "<group>"; };
 		F3CE74F422C59C9C00409AE6 /* VerticalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
 		F3CE74F622C59CE100409AE6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F3CE750122C5BC2100409AE6 /* HorizontalSnappingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSnappingController.swift; sourceTree = "<group>"; };
+		F3CE750522C5BF2E00409AE6 /* WatchNowHorizontalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNowHorizontalController.swift; sourceTree = "<group>"; };
+		F3CE750922C5C04700409AE6 /* WatchNowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNowCell.swift; sourceTree = "<group>"; };
+		F3CE750B22C5CDB100409AE6 /* WatchNowHorizontalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNowHorizontalCell.swift; sourceTree = "<group>"; };
+		F3CE750D22C5D08300409AE6 /* CategoryHeaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeaderController.swift; sourceTree = "<group>"; };
+		F3CE750F22C5D23A00409AE6 /* CategoryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeader.swift; sourceTree = "<group>"; };
+		F3CE751122C5D39500409AE6 /* CategoryHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				F3CE74DA22C5951A00409AE6 /* AppDelegate.swift */,
+				F3CE750722C5C02400409AE6 /* Cells */,
 				F3CE74FB22C59DFD00409AE6 /* Controllers */,
 				F3CE74FA22C59D7A00409AE6 /* Base Controllers */,
 				F3CE74F922C59D5900409AE6 /* Helpers */,
@@ -90,6 +105,7 @@
 				F3CE74EE22C59C2900409AE6 /* UIView+Layout.swift */,
 				F3CE74F422C59C9C00409AE6 /* VerticalStackView.swift */,
 				F3CE74F622C59CE100409AE6 /* Extensions.swift */,
+				F3CE750122C5BC2100409AE6 /* HorizontalSnappingController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -97,7 +113,7 @@
 		F3CE74FA22C59D7A00409AE6 /* Base Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F3CE74EC22C5985D00409AE6 /* CustomTabBarController.swift */,
+				F3CE74EC22C5985D00409AE6 /* BaseTabBarController.swift */,
 				F3CE74F222C59C4B00409AE6 /* BaseListController.swift */,
 			);
 			path = "Base Controllers";
@@ -115,6 +131,27 @@
 			isa = PBXGroup;
 			children = (
 				F3CE74DC22C5951A00409AE6 /* WatchNowController.swift */,
+				F3CE750522C5BF2E00409AE6 /* WatchNowHorizontalController.swift */,
+				F3CE750D22C5D08300409AE6 /* CategoryHeaderController.swift */,
+				F3CE750F22C5D23A00409AE6 /* CategoryHeader.swift */,
+			);
+			path = "Watch Now";
+			sourceTree = "<group>";
+		};
+		F3CE750722C5C02400409AE6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE750822C5C02B00409AE6 /* Watch Now */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F3CE750822C5C02B00409AE6 /* Watch Now */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE750922C5C04700409AE6 /* WatchNowCell.swift */,
+				F3CE750B22C5CDB100409AE6 /* WatchNowHorizontalCell.swift */,
+				F3CE751122C5D39500409AE6 /* CategoryHeaderCell.swift */,
 			);
 			path = "Watch Now";
 			sourceTree = "<group>";
@@ -189,13 +226,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CE751022C5D23A00409AE6 /* CategoryHeader.swift in Sources */,
 				F3CE74F122C59C2900409AE6 /* SnappingLayout.swift in Sources */,
 				F3CE74F022C59C2900409AE6 /* UIView+Layout.swift in Sources */,
 				F3CE74DD22C5951A00409AE6 /* WatchNowController.swift in Sources */,
 				F3CE74F722C59CE100409AE6 /* Extensions.swift in Sources */,
 				F3CE74DB22C5951A00409AE6 /* AppDelegate.swift in Sources */,
 				F3CE74F322C59C4B00409AE6 /* BaseListController.swift in Sources */,
-				F3CE74ED22C5985D00409AE6 /* CustomTabBarController.swift in Sources */,
+				F3CE750A22C5C04700409AE6 /* WatchNowCell.swift in Sources */,
+				F3CE74ED22C5985D00409AE6 /* BaseTabBarController.swift in Sources */,
+				F3CE750C22C5CDB100409AE6 /* WatchNowHorizontalCell.swift in Sources */,
+				F3CE750222C5BC2100409AE6 /* HorizontalSnappingController.swift in Sources */,
+				F3CE750622C5BF2E00409AE6 /* WatchNowHorizontalController.swift in Sources */,
+				F3CE751222C5D39500409AE6 /* CategoryHeaderCell.swift in Sources */,
+				F3CE750E22C5D08300409AE6 /* CategoryHeaderController.swift in Sources */,
 				F3CE74F522C59C9C00409AE6 /* VerticalStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
